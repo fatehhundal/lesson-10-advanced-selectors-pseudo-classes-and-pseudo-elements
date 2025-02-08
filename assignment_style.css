@@ -1,0 +1,51 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(229, 154, 34);
+    color: rgb(104, 50, 11);
+}
+
+h3, h4 {
+    text-transform: uppercase;
+}
+
+p, li, div {
+    font-size: 18px
+}
+
+ul {
+    list-style: square;
+}
+
+ul li:hover {
+    color: rgb(148, 69, 9);
+}
+
+h4 + p {
+    background-color: rgb(214, 98, 15);
+    padding: 5px;
+    border-radius: px;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 120%
+}
+
+a {
+    color: rgb(193, 94, 23);
+}
+
+a:hover {
+    color: rgb(148, 69, 9);
+}
+
+h4:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+h3::after {
+    content: " 📋"
+}
